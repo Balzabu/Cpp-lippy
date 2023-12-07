@@ -1,3 +1,8 @@
+// C++lippy
+// Made with <3 by Balzabu
+// https://github.com/Balzabu/
+// https://balzabu.io
+
 #include <iostream>
 #include <string>
 #include <thread>
